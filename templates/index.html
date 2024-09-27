@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Webcam Project by Yash</title>
+
+        <!--Link to CSS File-->
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <!--Page Container-->
+        <div class="container">
+            <h1>Access Your Webcam and Show us Your Face Here</h1>
+
+            <!--Webcam Video Stream-->
+            <div class="webcam-container">
+                <img src="{{ url_for('video') }}" alt="Webcam Feed"/>
+            </div>
+
+            <!-- Toggle Button to Hide/Show Webcam -->
+            <button id="toggleVideo">Hide Webcam</button>
+
+            <!-- Footer -->
+            <footer>
+                <p>Webcam Project by Yash &copy; 2024</p>
+            </footer>
+        </div>
+
+        <!-- Link to the JavaScript file -->
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+        
+    </body>
+</html>

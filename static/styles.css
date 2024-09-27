@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page Container */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Title Styling */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+h1:hover {
+    color: #e74c3c;
+}
+
+/* Webcam Display */
+.webcam-container img {
+    border: 5px solid #2ecc71;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    opacity: 0.9;
+    transition: opacity 0.5s ease;
+}
+
+.webcam-container img:hover {
+    opacity: 1;
+}
+
+/* Button Styling */
+#toggleVideo {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#toggleVideo:hover {
+    background-color: #2980b9;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 20px;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
