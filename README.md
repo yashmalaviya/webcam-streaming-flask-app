@@ -43,7 +43,7 @@ This project is a simple web application built using Python, Flask, OpenCV, HTML
 2. Navigate to the project directory.
 3. Run the Flask application:
 
-   `python app.py`
+   `python webcamproject.py`
 4. Open your web browser and go to `http://127.0.0.1:5000/`.
 5. You will see the webcam feed on the screen with the option to toggle its visibility.
 ## Future Enhancements
